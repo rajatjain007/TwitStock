@@ -1,4 +1,5 @@
 import UIKit
+import SwifteriOS
 
 class ViewController: UIViewController {
     
@@ -14,6 +15,10 @@ class ViewController: UIViewController {
     @IBAction func predictPressed(_ sender: Any) {
     
     
+    }
+    
+    func tweetsCrawler(){
+        let swifter = Swifter(consumerKey: "", consumerSecret: "", appOnly: true)
     }
     
 }
