@@ -13,7 +13,7 @@
 		AD9EC65720FE2EF7002AE9BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9EC65620FE2EF7002AE9BF /* Assets.xcassets */; };
 		AD9EC65A20FE2EF7002AE9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9EC65820FE2EF7002AE9BF /* LaunchScreen.storyboard */; };
 		CEE6803A27AA613400458160 /* TweetSentimentalClassifierModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CEE6803927AA613400458160 /* TweetSentimentalClassifierModel.mlmodel */; };
-		CEE6805427AA68ED00458160 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CEE6805327AA68ED00458160 /* Config.xcconfig */; };
+		CEE6805627AA6B6000458160 /* SecretConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CEE6805527AA6B6000458160 /* SecretConfig.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,7 @@
 		AD9EC65B20FE2EF7002AE9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE6803927AA613400458160 /* TweetSentimentalClassifierModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentalClassifierModel.mlmodel; sourceTree = "<group>"; };
 		CEE6803B27AA66B700458160 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
-		CEE6805327AA68ED00458160 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		CEE6805527AA6B6000458160 /* SecretConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SecretConfig.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			children = (
 				AD9EC64F20FE2EF4002AE9BF /* AppDelegate.swift */,
 				AD9EC65120FE2EF4002AE9BF /* ViewController.swift */,
-				CEE6805327AA68ED00458160 /* Config.xcconfig */,
+				CEE6805527AA6B6000458160 /* SecretConfig.xcconfig */,
 				AD9EC65320FE2EF4002AE9BF /* Main.storyboard */,
 				AD9EC65620FE2EF7002AE9BF /* Assets.xcassets */,
 				AD9EC65820FE2EF7002AE9BF /* LaunchScreen.storyboard */,
@@ -224,7 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE6805427AA68ED00458160 /* Config.xcconfig in Resources */,
+				CEE6805627AA6B6000458160 /* SecretConfig.xcconfig in Resources */,
 				AD9EC65A20FE2EF7002AE9BF /* LaunchScreen.storyboard in Resources */,
 				AD9EC65720FE2EF7002AE9BF /* Assets.xcassets in Resources */,
 				AD9EC65520FE2EF4002AE9BF /* Main.storyboard in Resources */,
